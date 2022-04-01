@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Application Form</title>
+</head>
+
+<body>
+  <h3 style="color:blue">Application Form</h3>
+  <hr>
+  <form  action="mailto:vcdas123@gmail.com" method="post" enctype="text/plain">
+    <strong><label>First name:</label></strong>
+    <br><input type="text" name="Firstname" value="">
+    <br>
+    <strong><label>Middle name:</label></strong>
+    <br> <input type="text" name="Middlename" value="">
+    <br>
+    <strong><label>Last name:</label></strong>
+    <br> <input type="text" name="Lastname" value="">
+    <br>
+    <label for="">Email:</label><br>
+    <input type="email" name="Email" value=""><br>
+    <label for=""><strong>Qualifications:</strong></label>
+    <br>
+    <input type="checkbox" name="postgraduation" value="Done">
+    <label for="">Postgraduation</label><br>
+    <input type="checkbox" name="gradution" value="Done">
+    <label for="">Graduation</label><br>
+    <input type="checkbox" name="highersecondary" value="Done">
+    <label for="">Higher secondary</label><br>
+    <input type="checkbox" name="marticulation" value="Done">
+    <label for="">Matriculation</label><br>
+    <strong><label>Date of birth:</label></strong>
+    <br> <input type="date" name="age" value="">
+    <br>
+    <strong><label>Upload Your Photo:</label></strong>
+    <br> <input type="file" name="Photo" value="">
+    <br>
+    <strong><label>Are you married?</label></strong>
+    <input type="checkbox" name="maritialstatus" value="Yes">
+    <br>
+    <strong><label>Gender:</label></strong>
+    <label>Male</label>
+    <input type="radio" name="Gender" value="Male">
+    <label>female</label>
+    <input type="radio" name="Gender" value="Female">
+    <br>
+    <label for="">Amount of Interest in this profile:</label>
+    <br> <input type="range" name="Interest">
+    <br>
+    <textarea name="Yourmessage" rows="5" cols="20"></textarea><br>
+    <input type="submit" name="" value="submit" onchange="" show_value(this.value);">
+
+
+  </form>
+</body>
+
+</html>
